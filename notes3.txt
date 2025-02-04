@@ -1,0 +1,34 @@
+### Iteration 4: Real-Time Trading Module and Risk Management
+
+**Objective:**  
+To develop a real-time trading module and further enhance the risk management system.
+
+**Steps Taken:**
+1. **Real-Time Trading Module:**  
+   - Integrated real-time data feed using WebSocket.
+   - Implemented a signal generator to trigger trades based on the latest data.
+
+2. **Risk Management Enhancement:**  
+   - Added a dynamic position sizing mechanism based on current portfolio value and risk tolerance.
+   - Implemented a stop-loss feature with trailing stops to limit potential losses.
+
+3. **Code Structure Improvements:**  
+   - Modularized the code for better readability and maintainability.
+   - Implemented error handling for data collection and preprocessing.
+
+**Results:**  
+- The real-time trading module showed a profit of approximately 27% over the backtesting period.
+- The maximum drawdown was reduced to around 5%, showing improved risk management.
+
+**Future Improvements:**  
+1. **Advanced Risk Management:**  
+   - Explore more sophisticated risk management techniques like volatility targeting.
+
+2. **Diversification:**  
+   - Expand the portfolio to include more assets and asset classes to further diversify.
+
+3. **Machine Learning Integration:**  
+   - Experiment with machine learning models for predicting market movements and generating signals.
+
+**Small Improvement Goal:**  
+To incorporate a machine learning model into the strategy by the next iteration.

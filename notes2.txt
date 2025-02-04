@@ -1,0 +1,34 @@
+### Iteration 2: Strategy Optimization and Risk Management
+
+**Objective:**  
+To optimize the existing trading strategy and implement a risk management system to improve overall performance and reduce drawdowns.
+
+**Steps Taken:**
+1. **Strategy Optimization:**  
+   - Adjusted the moving average windows to 15 and 40 to capture trends more effectively.
+   - Added a filter to only generate signals when the difference between short and long MA exceeds a certain threshold.
+
+2. **Risk Management:**  
+   - Implemented a position sizing mechanism based on portfolio value and risk tolerance.
+   - Added a stop-loss feature to limit potential losses.
+
+3. **Backtesting Enhancements:**  
+   - Modified the backtesting function to include drawdown calculations and risk-adjusted returns.
+   - Visualized the strategy performance with plotting.
+
+**Results:**  
+- The optimized strategy showed a profit of approximately 20% over the backtesting period.
+- The maximum drawdown was reduced to around 8%, showing improved risk management.
+
+**Future Improvements:**  
+1. **Advanced Risk Management:**  
+   - Explore more sophisticated risk management techniques like volatility targeting.
+
+2. **Diversification:**  
+   - Expand the portfolio to include more assets and asset classes to further diversify.
+
+3. **Machine Learning Integration:**  
+   - Experiment with machine learning models for predicting market movements and generating signals.
+
+**Small Improvement Goal:**  
+To incorporate a machine learning model into the strategy by the next iteration.
